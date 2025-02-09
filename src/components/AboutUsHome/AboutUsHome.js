@@ -13,7 +13,7 @@ const AboutUsHome = () =>{
                         <p data-aos="slide-right" className={styles.head}>ABOUT US</p>
                         <p data-aos="slide-left" className={styles.heading}>We hatch improved Kienyeji chicks</p>
                         <div data-aos="zoom-in">
-                            <p className={styles.content}>We supply both layers & broilers</p>
+                            <p className={styles.content}>We sell day old, one month old chicks</p>
                         </div>
                         <div data-aos='zoom-in' style={{textAlign: 'left'}}>
                             <button className={`btn custom_btn ${styles.btn}`}>Bring your fertilized eggs, we do the hatching for you</button>

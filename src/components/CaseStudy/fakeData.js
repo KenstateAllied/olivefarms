@@ -18,27 +18,11 @@ const fakeData = [
     },
     {
         id: 3,
-        designation: 'Animal Feeds',
+        designation: 'Day Old & one month chicks',
         img: img3,
         category: 'Formulation & Blending'
     },
-    {
-        id: 4,
-        designation: 'Dairy Goats',
-        img: img4,
-        category: 'Milk for health'
-    },
-    {
-        id: 5,
-        designation: 'Dorper sheep',
-        img: img1,
-        category: 'Pure breeds'
-    },
-    {
-        id: 6,
-        designation: 'Dairy Cows ',
-        img: img2,
-        category: 'For milk and calves'
-    }
+  
+  
 ]
 export default fakeData;
