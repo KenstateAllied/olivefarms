@@ -15,7 +15,7 @@ const Middle = () =>{
                     <div data-aos='fade-right' data-aos-offset="170" className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo1} alt=""/>
-                            <p className={styles.head}>Broilers</p>
+                            <p className={styles.head}>Hatching Services</p>
                             <p className={styles.content}>.</p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const Middle = () =>{
                     <div data-aos='fade-up' className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo2} alt=""/>
-                            <p className={styles.head}>Layers</p>
+                            <p className={styles.head}>Day old Chicks</p>
                             <p className={styles.content}></p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const Middle = () =>{
                     <div data-aos='fade-left' className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo3} alt=""/>
-                            <p className={styles.head}>Animal Feeds</p>
+                            <p className={styles.head}>One month old chicks</p>
                             <p className={styles.content}></p>
                         </div>
                     </div>

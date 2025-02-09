@@ -11,7 +11,7 @@ const Footer = () =>{
                 <div className="container" >
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>Kericho Harcheries</p>
+                            <p className={styles.logo}>Olive Farms</p>
                             <p className={styles.text}>We are KUKU about you</p>
                             
                             <div className={styles.social_logo}>
@@ -23,9 +23,9 @@ const Footer = () =>{
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Farm & Shop</p>
-                            <p className={styles.text}>Kericho & Eldoret</p>
-                            <p className={styles.text}>kenstatellc@gmail.com</p>
-                            <p className={styles.text}>(+254) 728608674</p>
+                            <p className={styles.text}>Kericho </p>
+                            <p className={styles.text}>olivefarms@gmail.com</p>
+                            <p className={styles.text}>(+254) 713851554</p>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
@@ -41,7 +41,7 @@ const Footer = () =>{
 
 
             <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
-                    <p className={styles.bottom}>Copyright © 2025. Kenstate Allied. (All rights reserved)</p>
+                    <p className={styles.bottom}>Copyright © 2025. Olive Farms. (All rights reserved)</p>
             </div>
         </>
     )

@@ -19,17 +19,17 @@ const CaseStudy = () =>{
 
     return(
         <div className={`container ${styles.contain} overflow-hidden`}>
-            <p className={styles.head} data-aos='slide-right'>These are some of our industry expertise</p>
+            <p className={styles.head} data-aos='slide-right'>Industry expertise</p>
             <div data-aos='slide-left'>
-                <p className={styles.our}>Animal Husbandry Niche  &nbsp;</p>
+                <p className={styles.our}>Kienyeji & Improved Kienyeji &nbsp;</p>
                 
             </div>
             <div className={`${styles.grp_btn}`} data-aos='fade'>
-                <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>Hatchery</p>
-                <p onClick={()=>{ filterData('financial'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>Dorper Sheep</p>
-                <p onClick={()=>{ filterData('human resources'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>Dairy Goats</p>
-                <p onClick={()=>{ filterData('start up'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>Animal Feeds</p>
-                <p onClick={()=>{ filterData('strategy'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>Dairy Production</p>
+                <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>Hatchery Services</p>
+                <p onClick={()=>{ filterData('financial'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>Day Old Chicks</p>
+                <p onClick={()=>{ filterData('human resources'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>One Month Chicks</p>
+                <p onClick={()=>{ filterData('start up'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>Broilers</p>
+                <p onClick={()=>{ filterData('strategy'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>Layers</p>
             </div>
 
             <div className='row mb-2'>

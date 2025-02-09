@@ -53,7 +53,7 @@ const NavbarMain = () => {
       >
         <Container>
           <Navbar.Brand href="/" className={styles.logo}>
-            Kenstate
+            Olive Farms
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -91,15 +91,15 @@ const NavbarMain = () => {
                 }
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Layers</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Hatching Services</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Day Old Chicks </NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>One Month Old Chicks</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Broilers</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Dorper Sheep</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Dairy Goats</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Animal Feeds</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Layers</NavLink></NavDropdown.Item>
 
               </NavDropdown>
 
-              
+          
               <NavLink
                 to="/contactUs"
                 className={` ${styles.nav_text} nav-link ${activeNav[3] ? styles.active : ""}`}

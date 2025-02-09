@@ -16,7 +16,7 @@ const AboutUsHome = () =>{
                             <p className={styles.content}>We supply both layers & broilers</p>
                         </div>
                         <div data-aos='zoom-in' style={{textAlign: 'left'}}>
-                            <button className={`btn custom_btn ${styles.btn}`}>We also supply dorper sheep at all ages</button>
+                            <button className={`btn custom_btn ${styles.btn}`}>Bring your fertilized eggs, we do the hatching for you</button>
                         </div>
                         
                     </div>

@@ -9,7 +9,7 @@ const ChoosingUs = () =>{
         <div style={{backgroundColor: '#fff1e5'}}>
             <div className="container overflow-hidden">
                 <p data-aos='slide-right' data-aos-offset="220" className={styles.heading}>Why you should choose us for your farming needs.</p>
-                <p data-aos='slide-left' className={styles.sub_text}>We supply feeds for chickens, sheep and Cows</p>
+                <p data-aos='slide-left' className={styles.sub_text}>We do hatching service, sell day, one month old chicks</p>
                 <div className={`row ${styles.sub}`}>
                     <div data-aos='fade-right' className="col-md-4">
                         <img src={experience} alt="experience"/>
