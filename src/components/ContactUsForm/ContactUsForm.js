@@ -23,12 +23,13 @@ const ContactUsForm = () =>{
                 <div className="row">
                     <div className="col-md-4" data-aos='fade-right'>
                         <p className={styles.head}>Address</p>
-                        <p className={styles.content}>Kericho </p>
+                        <p className={styles.content}>Kericho & Eldoret </p>
                     </div>
 
                     <div className="col-md-4" data-aos='fade-up' data-aos-offset='100'>
                         <p className={styles.head}>Contacts</p>
                         <p className={styles.content}>Phone 	: +254 713851554</p>
+                        <p className={styles.content}>Phone 	: +254 724052417</p>
                         <p className={styles.content}>Email: olivefarms@gmail.com</p>
                     </div>
 
