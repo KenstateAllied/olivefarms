@@ -26,6 +26,7 @@ const Footer = () =>{
                             <p className={styles.text}>Kericho </p>
                             <p className={styles.text}>olivefarms@gmail.com</p>
                             <p className={styles.text}>(+254) 713851554</p>
+                            <p className={styles.content}>+254 724052417</p>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>

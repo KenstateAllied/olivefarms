@@ -13,23 +13,23 @@ export const fakeData = [
     {
         id: 2,
         img: image2,
-        name: 'Kericho Green Grocers',
+        name: 'Wareng Womens Group',
         profession: 'DIRECTOR',
-        message: "Quality products"
+        message: "We received fully immunized birds"
     },
     {
         id: 3,
         img: image3,
-        name: 'Kericho Green Grocers',
-        profession: ' DIRECTOR',
-        message: "Quality products "
+        name: 'Turbo Agrovet',
+        profession: ' Owner',
+        message: "Good business partner "
     },
     {
         id: 4,
-        img: image1,
-        name: 'Kericho Green Grocers',
-        profession: 'Product Manager',
-        message: "Quality products."
+        img: image2,
+        name: 'Wareng Womens Group',
+        profession: 'DIRECTOR',
+        message: "We received fully immunized birds"
     },
     {
         id: 5,
@@ -41,8 +41,8 @@ export const fakeData = [
     {
         id: 6,
         img: image3,
-        name: 'Kericho Green Grocers',
-        profession: 'DIRECTOR',
-        message: "Quality products  "
+        name: 'Turbo Agrovet',
+        profession: ' Owner',
+        message: "Good business partner "
     },
 ]
